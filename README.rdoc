@@ -1,6 +1,6 @@
 = Redmine Better Gantt Chart Plugin
 
-{<img src="http://travis-ci.org/kulesa/redmine_better_gantt_chart.png" />}[http://travis-ci.org/kulesa/redmine_better_gantt_chart]
+{<img src="http://travis-ci.org/Undev/redmine_better_gantt_chart.png" />}[http://travis-ci.org/Undev/redmine_better_gantt_chart]
 
 The plugin improves functionality of Redmine Gantt Chart.
 
@@ -36,7 +36,7 @@ Connection arrows are rendered in SVG via {Raphael.js}[http://raphaeljs.com/] li
 1. Open an existing issue in Redmine
 2. Click *Add* in *Related* *Issues* section, select type of relation 'Follows' or 'Precedes' and enter # of the related issue.
 3. Save changes.
-4. Go to *Gantt* tab. 
+4. Go to *Gantt* tab.
 
 === Smart sorting
 
@@ -51,13 +51,13 @@ New setting *Work on weekends* introduced in v.0.6.
 
 == Problems and Limitations
 
-- Currently only '*follows*' and '*precedes*' relations are used to calculate schedule of dependend issues. Other relation types are rendered on the chart, but they *do* *not* *change* schedule of related issues. 
+- Currently only '*follows*' and '*precedes*' relations are used to calculate schedule of dependend issues. Other relation types are rendered on the chart, but they *do* *not* *change* schedule of related issues.
 - Only 'finish-to-start' dependency type is available.
-- One issue can precede many issues but, can be preceeded with only one issue. 
+- One issue can precede many issues but, can be preceeded with only one issue.
 
 == Helping out
 
-If you notice any problems, please report them to the GitHub issue tracker {here}[https://github.com/kulesa/redmine_better_gantt_chart/issues]. Feel free to contact me via GitHub or Twitter 
+If you notice any problems, please report them to the GitHub issue tracker {here}[https://github.com/kulesa/redmine_better_gantt_chart/issues]. Feel free to contact me via GitHub or Twitter
 or whatever with any other questions or feature requests. To submit changes fork the project and send a pull request.
 
 == Contributors

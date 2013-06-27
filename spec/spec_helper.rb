@@ -3,10 +3,10 @@
 ENV["RAILS_ENV"] = "test"
 
 # Allows loading of an environment config based on the environment
-redmine_root = ENV["REDMINE_ROOT"] || File.dirname(__FILE__) + "/../../../.."
+redmine_root = ENV["REDMINE_ROOT"] || File.dirname(__FILE__) + "/../../.."
 require File.expand_path(redmine_root + "/config/environment")
-require 'spec'
-require 'spec/rails'
+require 'rspec'
+require 'rspec/rails'
 require 'factory_girl'
 require 'database_cleaner'
 
@@ -17,14 +17,14 @@ Spec::Runner.configure do |config|
   DatabaseCleaner.strategy = :truncation
   config.use_transactional_fixtures = true
   config.use_instantiated_fixtures  = false
-  config.fixture_path = RAILS_ROOT + '/spec/fixtures/'
+  config.fixture_path = Rails.root + '/spec/fixtures/'
   config.include Helpers
 
-  config.before(:suite) do 
+  config.before(:suite) do
     DatabaseCleaner.clean
   end
 
-  config.after(:suite) do 
+  config.after(:suite) do
   end
 end
 

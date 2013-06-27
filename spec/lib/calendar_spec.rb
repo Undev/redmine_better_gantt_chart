@@ -1,7 +1,7 @@
 require 'active_support'
-require File.expand_path('spec/helpers')
-require File.expand_path('../../../lib/redmine_better_gantt_chart/redmine_better_gantt_chart', __FILE__)
-require File.expand_path('../../../lib/redmine_better_gantt_chart/calendar', __FILE__)
+require File.dirname(__FILE__) + '/../helpers'
+require File.dirname(__FILE__) + '/../../lib/redmine/helpers/better_gantt'
+require File.dirname(__FILE__) + '/../../lib/redmine_better_gantt_chart/calendar'
 
 describe RedmineBetterGanttChart::Calendar do
   include Helpers
