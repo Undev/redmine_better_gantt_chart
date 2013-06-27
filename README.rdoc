@@ -1,6 +1,6 @@
 = Redmine Better Gantt Chart Plugin
 
-{<img src="http://travis-ci.org/Undev/redmine_better_gantt_chart.png" />}[http://travis-ci.org/Undev/redmine_better_gantt_chart]
+{<img src="https://travis-ci.org/Undev/redmine_better_gantt_chart.png" alt="Build Status" />}[https://travis-ci.org/Undev/redmine_better_gantt_chart]
 
 The plugin improves functionality of Redmine Gantt Chart.
 
